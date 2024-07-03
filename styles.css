@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#chart-container {
+  text-align: center;
+}
+
+#chart {
+  width: 800px;
+  height: 500px;
+  margin: auto;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #d3d3d3;
+  padding: 10px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.axis text {
+  font-size: 12px;
+}
